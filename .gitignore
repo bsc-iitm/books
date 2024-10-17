@@ -396,3 +396,9 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+#The site build directory
+site/
+
+#Obsidian files
+*.obsidian

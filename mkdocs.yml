@@ -1,0 +1,113 @@
+site_name: Data Science and Programming Books
+site_description: Books recommended for BS in Data Science and Applcations, IIT Madras
+
+# Repository
+# repo_name: bsc-iitm/books
+# repo_url: https://github.com/bsc-iitm/books
+# edit_uri: edit/main/docs/
+
+# Extensions
+markdown_extensions:
+  - footnotes
+  - nl2br
+  - attr_list
+  - sane_lists
+  - meta
+  - smarty
+  - tables
+  - def_list
+  - toc:
+      title: On this page
+      toc_depth: 0
+      permalink: true
+      permalink_title: Copy link to this section for reference
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - admonition
+
+
+theme:
+  name: material
+  # custom_dir: overrides
+  # favicon: assets/logo/logo.svg
+  # logo: assets/logo/logo.svg
+  #shortcuts
+  shortcuts:
+    help: 191    # ?
+    next: 78     # n
+    previous: 80 # p
+    search: 83   # s
+  highlightjs: true
+
+  #when editing a page
+  theme:
+  icon:
+    edit: material/pencil 
+    view: material/eye
+
+  palette:
+    #light mode
+    - scheme: default
+      primary: black
+      accent: lime
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    #dark mode
+    - scheme: slate
+      primary: black
+      accent: lime
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - search.highlight
+    - search.share
+    - search.suggest
+    - navigation.instant
+    # - navigation.footer
+    # - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+    # - toc.integrate 
+
+
+
+plugins:
+  # - blog:
+  #     post_date_format: full
+  #     blog_dir: blog
+  #     # post_dir: "{blog}/articles"
+  #     archive_date_format: MMMM yyyy
+  #     post_readtime: true
+  #     blog_toc: true
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - minify:
+      minify_html: true
+
+extra:
+  analytics:
+    provider: google
+    property:
+  generator: false
+
+#Information on How to navigate from the home page all parts of the website
+nav:
+  - Foundation: 
+    - Books: foundation/books.md
+  - Diploma in Programming: 
+    - Books: diploma_in_programming/books.md
+  - Diploma in Data Science: 
+    - Books: diploma_in_data_science/books.md
+  - Degree:
+    - Books: degree/books.md
