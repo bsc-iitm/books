@@ -52,14 +52,14 @@ theme:
     #light mode
     - scheme: default
       primary: black
-      accent: lime
+      accent: blue
       toggle:
         icon: material/lightbulb-outline
         name: Switch to dark mode
     #dark mode
     - scheme: slate
       primary: black
-      accent: lime
+      accent: blue
       toggle:
         icon: material/lightbulb
         name: Switch to light mode
