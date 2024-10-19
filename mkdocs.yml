@@ -1,10 +1,11 @@
 site_name: Data Science and Programming Books
 site_description: Books recommended for BS in Data Science and Applcations, IIT Madras
+site_url: https://bsc-iitm.github.io/books
 
 # Repository
-# repo_name: bsc-iitm/books
-# repo_url: https://github.com/bsc-iitm/books
-# edit_uri: edit/main/docs/
+# repo_name: bsc-iitm/books 
+repo_url: https://github.com/bsc-iitm/books
+edit_uri: edit/master/docs/
 
 # Extensions
 markdown_extensions:
