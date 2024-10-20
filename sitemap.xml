@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://bsc-iitm.github.io/books/</loc>
+         <lastmod>2024-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://bsc-iitm.github.io/books/degree/books/</loc>
+         <lastmod>2024-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://bsc-iitm.github.io/books/diploma_in_data_science/books/</loc>
+         <lastmod>2024-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://bsc-iitm.github.io/books/diploma_in_programming/books/</loc>
+         <lastmod>2024-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://bsc-iitm.github.io/books/foundation/books/</loc>
+         <lastmod>2024-10-20</lastmod>
+    </url>
+</urlset>
